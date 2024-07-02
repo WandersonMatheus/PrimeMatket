@@ -5,3 +5,23 @@
 .categorias-menu{
     display: none;
 }
+.open{
+    display: block;
+}
+li{
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-weight: 600;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+.slides{
+    width: 100%;
+    overflow: hidden;
+}
+.slides img{
+    width: 100%;
+    height: auto;
+    max-height: 720px;
+    object-fit: cover;
+    border-radius: 5px;
+}
